@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+} 
+.sea {
+  background-image: url(./pngwing4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 2500px;
+  height: 100vh;
+  position: relative;
+
+ 
+}
+.moss {
+  background-image: url(./pngwing2.png);
+  position: absolute;
+  width: 25000px;
+  height: 900%;
+  margin: 360px;
+  animation: left-move 10s linear infinite;
+}
+.fish {
+  display: flex;
+  align-items: flex-start;
+ /* animation: right 6s linear infinite; */
+ position: absolute;
+ padding: 200px;
+ margin: 100px;
+}
+
+/* @keyframes left-move {
+  0% {
+    transform: translatex(0vw);
+  }
+  25% {
+    transform: translatex(-25vw);
+  }
+  50% {
+    transform: translatex(-50vw);
+  }
+  75% {
+    transform: translatex(-75vw);
+  }
+  100% {
+    transform: translatex(-100vw);
+  }
+} */
+@keyframes right{
+  100% {
+    transform: translate(2000px);
+  }
+}
+
+
+@keyframes left-move{
+100% {
+  transform: translate(-2000px);
+}
+}
