@@ -11,7 +11,7 @@ body {
   overflow: hidden;
 } 
 .sea {
-  background-image: url(./pngwing4.png);
+  background-image: url(./images/pngwing4.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -22,39 +22,24 @@ body {
  
 }
 .moss {
-  background-image: url(./pngwing2.png);
+  background-image: url(./images/pngwing2.png);
   position: absolute;
   width: 25000px;
   height: 900%;
   margin: 360px;
   animation: left-move 10s linear infinite;
+
 }
 .fish {
   display: flex;
   align-items: flex-start;
- /* animation: right 6s linear infinite; */
+ animation: right 8s linear infinite;
  position: absolute;
  padding: 200px;
  margin: 100px;
+
 }
 
-/* @keyframes left-move {
-  0% {
-    transform: translatex(0vw);
-  }
-  25% {
-    transform: translatex(-25vw);
-  }
-  50% {
-    transform: translatex(-50vw);
-  }
-  75% {
-    transform: translatex(-75vw);
-  }
-  100% {
-    transform: translatex(-100vw);
-  }
-} */
 @keyframes right{
   100% {
     transform: translate(2000px);
