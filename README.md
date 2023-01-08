@@ -1,2 +1,2 @@
 # animasyon
-## Animasyon desing url:
+## Animasyon desing url: https://ilknurtuncer.github.io/animasyon/
